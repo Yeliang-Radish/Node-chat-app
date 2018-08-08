@@ -116,7 +116,3 @@ const updateUserList = callback => {
         callback(null, users);
     });
 };
-
-if (typeof module !== "undefined" && typeof module.exports !== "undefined")
-    module.exports = updateUserList;
-else window.updateUserList = updateUserList;
